@@ -1,7 +1,7 @@
 ---
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">
-<img src="images/jsamson.jpg" style="width:30%; margin-right: 20px; padding-top: 2%;" align="left">
+<img src="images/jsamson.jpg" style="width:30%; margin-right: 20px; margin-bottom: 20px; padding-top: 5%;" align="left">
 
 <br>
 I am head of data science and insights at <a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.

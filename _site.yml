@@ -13,5 +13,5 @@ navbar:
       href: https://www.linkedin.com/in/jamie-samson/
 output:
   html_document:
-    theme: flatly
+    theme: readable
     css: 'styles.css'
