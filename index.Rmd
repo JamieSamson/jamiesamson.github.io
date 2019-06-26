@@ -4,7 +4,7 @@
 <img src="images/jsamson.jpg" style="width:30%; margin-right: 20px; padding-top: 2%;" align="left">
 
 <br>
-rI am head of data science and insights at <a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.
+I am head of data science and insights at <a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.
 
 My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients. 
 
