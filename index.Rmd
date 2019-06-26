@@ -10,4 +10,4 @@ My role at MindFolio includes developing analytical tools, designing data collec
 
 I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East. 
 
-My data science skills include R, Shiny, various machine learning models, NLP|sentiment analysis, social network analysis.
+My data science skills include R, Shiny app development, Markdown, various machine learning models, NLP|sentiment analysis, social network analysis.
