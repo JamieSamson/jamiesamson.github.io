@@ -25,7 +25,7 @@ ggplot2|gganimate|plotly|leaflet|igraph
 plyr|dplyr|tidyr|tidyverse
 
 <h3>Machine learning techniques</h3>
-linear/logistic regression|clustering|random forest
+linear/logistic regression|clustering|decision trees
 
 sentiment analyis|NLP|topic modelling
 
