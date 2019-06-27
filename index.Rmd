@@ -1,13 +1,33 @@
 ---
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">
-<img src="images/jsamson.jpg" style="width:30%; margin-right: 20px; margin-bottom: 20px; padding-top: 5%;" align="left">
+<p style="text-align:center;">
+<img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
 
-<br>
+<h2>About</h2>
 I am head of data science and insights at <a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.
 
 My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients. 
 
-I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East. 
+I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East.
 
-My data science skills include R, Shiny app development, Markdown, various machine learning models, NLP|sentiment analysis, social network analysis.
+<br>
+<br>
+<h2>Technical skills</h2>
+
+<h3>R</h3>
+shiny|shinydashboard|flexdahsboard|markdown
+
+ggplot2|gganimate|plotly|leaflet|igraph
+
+plyr|dplyr|tidyr|tidyverse
+
+<h3>Machine learning techniques</h3>
+linear/logistic regression|clustering|random forest
+
+sentiment analyis|NLP|topic modelling
+
+<br>
+<br>
+<h2>Open source projects</h2>
+<a href="https://github.com/JamieSamson">Click here</a> to visit my GitHub profile for some open source R projects I have written
