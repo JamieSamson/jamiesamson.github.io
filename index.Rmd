@@ -18,7 +18,7 @@ Prior to joining MindFolio, I gained a PhD from the University of Zurich, where 
 <h2>Technical skills</h2>
 
 <h3>R</h3>
-shiny|shinydashboard|flexdahsboard|markdown
+shiny|shinydashboard|flexdashboard|markdown
 
 ggplot2|gganimate|plotly|leaflet|igraph
 
