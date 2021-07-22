@@ -102,15 +102,18 @@ Windows server
 </div>
 <br>
 <br>
-<div class="hideme">
 
+<div class="hideme">
 <h2>Data visualisations</h2>
 As data is now such an integral part of the decision-making process, I constantly work to ensure MindFolio operates at the bleeding edge of data visualisation and dashboard creation.
 <br>
 
-You can find an example of one of my creations <a href="https://example.mindfolioresearch.com/" target="blank_">here</a> - a big data app which uses over 20 variables across London wards to get an understanding of community health. 
+You can find an example of one of my creations <a href="https://example.mindfolioresearch.com/" target="blank_">here</a> - a big data app which uses over 20 variables across London wards to get an understanding of community health.
+</div>
 <br>
 <br>
+
+<div class="hideme">
 <h2>Open source projects</h2>
 <a href="https://github.com/JamieSamson">Click here</a> to visit my GitHub profile for some open source R projects I have written
 </div>
