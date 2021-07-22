@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>index.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,6 +24,15 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -86,7 +95,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +243,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +255,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -326,37 +323,142 @@ $(document).ready(function () {
 </div>
 
 
-<link rel="stylesheet" href="styles.css" type="text/css">
-<p style="text-align:center;">
+<style>
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+.hideme
+{
+    opacity:0;
+}
+
+
+}
+
+</style>
+<script>
+
+$(function(){//$(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+$(document).ready(function() {
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1'},100);
+            }
+        }); 
+    });
+    
+});
+
+</script>
+<center>
+<div class="fade-in-image">
 <img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;">
 </p>
+</div>
+</center>
 <h2>
 About
 </h2>
-<p>I am head of data science and insights at<a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.</p>
+<p>I am head of data science and insights at <a href="mindfolio.com">Mindfolio</a> an innovation and analytics consultancy based in the UK. We specialise in residential, retail and mixed-use real estate environments.</p>
 <p>My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients.</p>
 <p>I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East.</p>
 <p>Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</p>
 <br> <br>
+<div class="hideme">
+<h2>
+Industry skills
+</h2>
+<p>urban design|behavioural design|green design|health/wellbeing<br> concept development|masterplanning<br> consumer research</p>
+</div>
+<br> <br>
+<div class="hideme">
 <h2>
 Technical skills
 </h2>
 <h3>
 R
 </h3>
-<p>shiny|shinyjs|shinydashboard|flexdashboard|markdown</p>
-<p>ggplot2|gganimate|plotly|leaflet|igraph</p>
-<p>plyr|dplyr|tidyr|tidyverse</p>
+<p>shiny|shinyjs|shinydashboard|flexdashboard|markdown<br> ggplot2|gganimate|plotly|networkD3|r2d3|leaflet|igraph<br> tidyverse</p>
+</div>
+<div class="hideme">
 <h3>
-Machine learning techniques
+Analytical techniques
 </h3>
-<p>linear/logistic regression|clustering|decision trees</p>
-<p>sentiment analyis|NLP|topic modelling</p>
+<p>regression|clustering|decision trees<br> sentiment analyis|NLP|topic modelling</p>
+</div>
+<div class="hideme">
+<h3>
+Research techniques
+</h3>
+<p>behavioural science<br> survey design/programming<br> best-worst scaling|conjoint|discrete choice modelling</p>
+</div>
+<div class="hideme">
+<h3>
+Other skills
+</h3>
+<p>html|css|javascript<br> Windows server</p>
+</div>
 <br> <br>
+<div class="hideme">
 <h2>
 Open source projects
 </h2>
 <p><a href="https://github.com/JamieSamson">Click here</a> to visit my GitHub profile for some open source R projects I have written</p>
+</div>
 
 
 
@@ -375,6 +477,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

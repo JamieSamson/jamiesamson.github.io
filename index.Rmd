@@ -1,11 +1,97 @@
 ---
 ---
-<link rel="stylesheet" href="styles.css" type="text/css">
-<p style="text-align:center;">
+<style>
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+.hideme
+{
+    opacity:0;
+}
+
+
+}
+
+</style>
+
+<script>
+
+$(function(){//$(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+$(document).ready(function() {
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1'},100);
+            }
+        }); 
+    });
+    
+});
+
+</script>
+
+
+<center>
+<div class="fade-in-image">
 <img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
+</div>
+</center>
 
 <h2>About</h2>
-I am head of data science and insights at<a href="mindfolio.com"> Mindfolio</a> an innovation and analytics consultancy. We specialise in residential, retail and mixed-use real estate environments.
+I am head of data science and insights at <a href="mindfolio.com">Mindfolio</a> an innovation and analytics consultancy based in the UK. We specialise in residential, retail and mixed-use real estate environments.
 
 My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients. 
 
@@ -15,21 +101,44 @@ Prior to joining MindFolio, I gained a PhD from the University of Zurich, where 
 
 <br>
 <br>
+<div class="hideme">
+<h2>Industry skills</h2>
+urban design|behavioural design|green design|health/wellbeing<br>
+concept development|masterplanning<br>
+consumer research
+</div>
+<br>
+<br>
+<div class="hideme">
 <h2>Technical skills</h2>
 
 <h3>R</h3>
-shiny|shinyjs|shinydashboard|flexdashboard|markdown
+shiny|shinyjs|shinydashboard|flexdashboard|markdown<br>
+ggplot2|gganimate|plotly|networkD3|r2d3|leaflet|igraph<br>
+tidyverse
+</div>
 
-ggplot2|gganimate|plotly|leaflet|igraph
-
-plyr|dplyr|tidyr|tidyverse
-
-<h3>Machine learning techniques</h3>
-linear/logistic regression|clustering|decision trees
-
+<div class="hideme">
+<h3>Analytical techniques</h3>
+regression|clustering|decision trees<br>
 sentiment analyis|NLP|topic modelling
+</div>
 
+<div class="hideme">
+<h3>Research techniques</h3>
+behavioural science<br>
+survey design/programming<br>
+best-worst scaling|conjoint|discrete choice modelling
+</div>
+
+<div class="hideme">
+<h3>Other skills</h3>
+html|css|javascript<br>
+Windows server
+</div>
 <br>
 <br>
+<div class="hideme">
 <h2>Open source projects</h2>
 <a href="https://github.com/JamieSamson">Click here</a> to visit my GitHub profile for some open source R projects I have written
+</div>
