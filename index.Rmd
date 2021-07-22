@@ -51,9 +51,7 @@ $(document).ready(function() {
 
 
 <center>
-<div class="fade-in-image">
 <img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
-</div>
 </center>
 
 <h2>About</h2>
