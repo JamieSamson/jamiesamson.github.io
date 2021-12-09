@@ -1,3 +1,4 @@
+title: "Jamie Samson"
 name: "Jamie Samson"
 output_dir: "."
 navbar:
@@ -7,11 +8,8 @@ navbar:
       href: mailto::js@mindfolio.com
     - icon: fa-github fa-lg
       href: https://github.com/JamieSamson
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/forloveofsci
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/jamie-samson/
 output:
   html_document:
     theme: readable
-    css: 'styles.css'
