@@ -11,4 +11,4 @@ navbar:
       href: https://www.linkedin.com/in/jamie-samson/
 output:
   html_document:
-    theme: readable
+    theme: cosmo

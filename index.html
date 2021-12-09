@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -113,33 +113,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 66px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -339,8 +339,22 @@ $(document).ready(function () {
 }
 
 
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  height: 50px;
+  opacity: 1;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 100;
+  color: #000000;
 }
 
+.title {
+ text-align: center;
+}
 </style>
 <script>
 
@@ -363,9 +377,14 @@ $(document).ready(function() {
     
 });
 
+
+$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 700);
+  });
+
 </script>
 <center>
-<img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;">
+<img src="images/jsamson2.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;">
 </p>
 </center>
 <h2>
@@ -375,6 +394,11 @@ About
 <p>My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients.</p>
 <p>I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East.</p>
 <p>Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</p>
+<div class="top">
+<center>
+<span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span>
+</center>
+</div>
 <br> <br>
 <div class="hideme">
 <h2>

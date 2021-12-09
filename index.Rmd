@@ -23,8 +23,22 @@ title: "Dr Jamie Samson"
 }
 
 
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  height: 50px;
+  opacity: 1;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 100;
+  color: #000000;
 }
 
+.title {
+ text-align: center;
+}
 </style>
 
 <script>
@@ -48,11 +62,16 @@ $(document).ready(function() {
     
 });
 
+
+$(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 700);
+  });
+
 </script>
 
 
 <center>
-<img src="images/jsamson.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
+<img src="images/jsamson2.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
 </center>
 
 <h2>About</h2>
@@ -63,6 +82,10 @@ My role at MindFolio includes developing analytical tools, designing data collec
 I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East.
 
 Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.
+
+<div class="top">
+<center><span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span></center>
+</div>
 
 <br>
 <br>
