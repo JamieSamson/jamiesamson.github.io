@@ -2,7 +2,6 @@ title: "Jamie Samson"
 name: "Jamie Samson"
 output_dir: "."
 navbar:
-  title: "Dr Jamie Samson"
   right:
     - icon: fa-envelope fa-lg
       href: mailto::js@mindfolio.com
