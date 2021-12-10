@@ -91,8 +91,8 @@ Prior to joining MindFolio, I gained a PhD from the University of Zurich, where 
 <br>
 <div class="hideme">
 <h2>Industry skills</h2>
-urban design|behavioural design|green design|health/wellbeing<br>
-concept development|masterplanning<br>
+urban design | behavioural design | green design | health/wellbeing<br>
+concept development | masterplanning<br>
 consumer research
 </div>
 <br>
@@ -101,27 +101,27 @@ consumer research
 <h2>Technical skills</h2>
 
 <h3>R</h3>
-shiny|shinyjs|shinydashboard|flexdashboard|markdown<br>
-ggplot2|gganimate|plotly|networkD3|r2d3|leaflet|igraph<br>
+shiny | shinyjs | shinydashboard | flexdashboard | markdown<br>
+ggplot2 | gganimate | plotly | networkD3 | r2d3 | leaflet | igraph<br>
 tidyverse
 </div>
 
 <div class="hideme">
 <h3>Analytical techniques</h3>
-regression|clustering|decision trees<br>
-sentiment analyis|NLP|topic modelling
+regression | clustering | decision trees<br>
+sentiment analyis | NLP | topic modelling
 </div>
 
 <div class="hideme">
 <h3>Research techniques</h3>
 behavioural science<br>
 survey design/programming<br>
-best-worst scaling|conjoint|discrete choice modelling
+best-worst scaling | conjoint | discrete choice modelling
 </div>
 
 <div class="hideme">
 <h3>Other skills</h3>
-html|css|javascript<br>
+html | css | javascript<br>
 Windows server
 </div>
 <br>
