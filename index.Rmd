@@ -149,8 +149,8 @@ You can find an example of one of my creations <a href="https://example.mindfoli
 <br>
 <h4>To try and make data as accessible as possible, I also create interactive and visual graphics</h4>
 <br>
+<center><p style="color: grey;">Play with me, I'm interactive</p></center>
 <center><iframe src="network.html" width="80%" height="400" frameBorder="0"></iframe></center>
-<br>
 <br>
 <div class="hideme">
 <h2>Open source projects</h2>
