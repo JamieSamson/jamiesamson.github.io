@@ -71,15 +71,13 @@ $(window).scroll(function(){
 
 
 <center>
-<img src="images/jsamson2.jpg" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
+<img src="images/jsamson2.jpg" loading="lazy" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
 </center>
 
 <h2>About</h2>
-<h4>I am head of data science and insights at <a href="mindfolio.com">MindFolio</a> an innovation and analytics consultancy based in the UK. We specialise in residential, retail and mixed-use real estate environments.
+<h4>I am head of data science and insights at <a href="mindfolio.com">MindFolio</a> an innovation and analytics consultancy based in the UK. 
 
-My role at MindFolio includes developing analytical tools, designing data collection protocols and surveys, analysing customer behavioural data and visualising data for clients. My scope also goes beyond just the numbers; I am involved in project visioning/ideation, as well as producing strategic content for clients. 
-
-I have worked on a variety of projects ranging from researching concepts for a mixed-use office environment in Colorado to helping redesign the leisure and entertainment landscape for a mall operator in The Middle East.
+My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. In pursuit of this, I create custom apps and dashboards for clients using R Shiny. 
 
 Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</h4>
 
@@ -92,9 +90,9 @@ Prior to joining MindFolio, I gained a PhD from the University of Zurich, where 
 <div class="hideme">
 <h2>Industry skills</h2>
 <h4>
-urban design | behavioural design | green design | health/wellbeing<br>
+behavioural research | green design | health/wellbeing<br>
 concept development | masterplanning<br>
-consumer research
+consumer/market research
 </h4>
 </div>
 <br>
@@ -104,16 +102,17 @@ consumer research
 
 <h3>R</h3>
 <h4>
-shiny | shinyjs | shinydashboard | flexdashboard | markdown<br>
-ggplot2 | gganimate | plotly | networkD3 | r2d3 | leaflet | igraph<br>
+shiny | markdown<br>
+ggplot2 | plotly | D3 | igraph | leaflet<br>
 tidyverse
+API's | webscraping
 <h4>
 </div>
 
 <div class="hideme">
 <h3>Analytical techniques</h3>
 <h4>
-regression | clustering | decision trees<br>
+base statistical techniques | clustering/segmentation | ML<br>
 sentiment analysis | NLP | topic modelling
 </h4>
 </div>
@@ -123,7 +122,7 @@ sentiment analysis | NLP | topic modelling
 <h4>
 behavioural science<br>
 survey design/programming<br>
-best-worst scaling | conjoint | discrete choice modelling
+best-worst scaling | various flavours of choice modelling
 </h4>
 </div>
 
@@ -132,21 +131,35 @@ best-worst scaling | conjoint | discrete choice modelling
 <h4>
 html | css | javascript<br>
 Windows server
+Git | GitHub
 </h4>
 </div>
 <br>
 <br>
 
 <div class="hideme">
-<h2>Data visualisation</h2>
+<h2>Projects</h2>
+<br>
+<center>
+<table>
+ <tr>
+ <td style="padding-right: 10px;">
+ <img src="images/survey.gif" style="height: 200px;">
+ </td>
+  <td>
+ <img src="images/community_audit.png" style="height: 200px;">
+ </td>
+ </tr>
+ </table>
+</center>
+<br>
 <h4>
-As data is now such an integral part of the decision-making process, I constantly work to ensure MindFolio operates at the bleeding edge of data visualisation and dashboard creation.
-
+You can find an example of one of my creations <a href="https://mindfolio.shinyapps.io/Community-Audit/" target="blank_">here</a> (works best on desktop) - a big data app which uses over 20 variables across London wards to get an understanding of community health. You can read more about the tool in this article for TechUK <a href="https://www.techuk.org/resource/the-power-of-big-data-in-understanding-shaping-community-development2.html" target="blank_">here</a>.
 <br>
-
-You can find an example of one of my creations <a href="https://example.mindfolioresearch.com/" target="blank_">here</a> (works best on desktop) - a big data app which uses over 20 variables across London wards to get an understanding of community health. You can read more about the tool in this article for TechUK <a href="https://www.techuk.org/resource/the-power-of-big-data-in-understanding-shaping-community-development2.html" target="blank_">here</a>.</h4>
+<br>
+Using my background in behavioural science, I have also helped innovate and develop MindFolio's Place Attachment insights system. This tool combines allows us to measure people's emotional connections to a place and where improvements are needed to help create more wholesome communities. You can find more details <a href="https://mindfolio.com/place-attachment-insight-system-to-create-lasting-communities/" target="blank_">here</a>.</h4>
+</br>
 </div>
-<br>
 <br>
 <div class="hideme">
 <h2>Open source projects</h2>
