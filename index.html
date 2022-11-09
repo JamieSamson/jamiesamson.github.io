@@ -13,7 +13,7 @@
 
 <title>Dr Jamie Samson</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -395,8 +388,8 @@ Technical skills
 R
 </h3>
 <h4>
-shiny | shinyjs | shinydashboard | markdown<br> ggplot2 | gganimate |
-plotly | networkD3 | igraph | leaflet<br> tidyverse
+shiny | markdown<br> ggplot2 | plotly | D3 | igraph | leaflet<br>
+tidyverse API’s | webscraping
 <h4>
 </div>
 <div class="hideme">
@@ -422,7 +415,7 @@ behavioural science<br> survey design/programming<br> best-worst scaling
 Other skills
 </h3>
 <h4>
-html | css | javascript<br> Windows server Git | GitHub
+html | css | javascript<br> Windows server<br> Git | GitHub
 </h4>
 </div>
 <p><br> <br></p>
@@ -430,6 +423,11 @@ html | css | javascript<br> Windows server Git | GitHub
 <h2>
 Projects
 </h2>
+<h4>
+From creating a unique bespoke survey platform to a tool to analyse
+community health, I have worked on a range of development-led data
+projects, bringing a unique perspective on how data is presented/used
+</h4>
 <br>
 <center>
 <table>
