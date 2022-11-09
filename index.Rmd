@@ -130,7 +130,7 @@ best-worst scaling | various flavours of choice modelling
 <h3>Other skills</h3>
 <h4>
 html | css | javascript<br>
-Windows server
+Windows server<br>
 Git | GitHub
 </h4>
 </div>
