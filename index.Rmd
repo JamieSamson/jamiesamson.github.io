@@ -139,6 +139,7 @@ Git | GitHub
 
 <div class="hideme">
 <h2>Projects</h2>
+<h4>From creating a unique bespoke survey platform to a tool to analyse community health, I have worked on a range of development-led data projects, bringing a unique perspective on how data is presented/used</h4>
 <br>
 <center>
 <table>
