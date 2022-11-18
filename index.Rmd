@@ -104,7 +104,7 @@ consumer/market research
 <h4>
 shiny | markdown<br>
 ggplot2 | plotly | D3 | igraph | leaflet<br>
-tidyverse
+tidyverse<br>
 API's | webscraping
 <h4>
 </div>
