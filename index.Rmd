@@ -77,7 +77,7 @@ $(window).scroll(function(){
 <h2>About</h2>
 <h4>I am head of data science and insights at <a href="mindfolio.com">MindFolio</a> an innovation and analytics consultancy based in the UK. 
 
-My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. In pursuit of this, I create custom apps and dashboards for clients using R Shiny. 
+My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. To create these compelling data-driven narratives I use tools such as R Shiny.
 
 Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</h4>
 
@@ -134,12 +134,14 @@ Windows server<br>
 Git | GitHub
 </h4>
 </div>
-<br>
-<br>
 
 <div class="hideme">
+<br>
+<br>
 <h2>Projects</h2>
 <h4>From creating a unique bespoke survey platform to a tool to analyse community health, I have worked on a range of development-led data projects, bringing a unique perspective on how data is presented/used</h4>
+</div>
+<div class="hideme">
 <br>
 <center>
 <table>
