@@ -87,7 +87,7 @@ $(window).scroll(function(){
 <h2>Data-driven story teller</h2>
 </center>
 <br>
-<center><img src="images/jsamson.jpg" width="15%"></center>
+<center><img src="images/jsamson.jpg" width="150px"></center>
 
 <div class="top">
 <center><span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span></center>
