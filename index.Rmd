@@ -3,6 +3,20 @@ title: "Dr Jamie Samson"
 ---
 <style>
 
+h1{
+  font-size: 80px !important;
+  color: #3B6E5C;
+}
+
+h2{
+ color: #76dcb9; 
+}
+
+.navbar-default {
+    background-color: #76dcb9;
+    border-color: #76dcb9;
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
@@ -69,13 +83,14 @@ $(window).scroll(function(){
 
 </script>
 
-
 <center>
-<img src="images/jsamson2.jpg" loading="lazy" style="width:30%; margin-bottom: 20px; padding-top: 5%;"></p>
+<h2>Data-driven story teller</h2>
 </center>
+<br>
+<br>
 
 <h2>About</h2>
-<h4>I am head of data science and insights at <a href="mindfolio.com">MindFolio</a> an innovation and analytics consultancy based in the UK. 
+<h4>I am head of data science and insights at <a href="https://mindfolio.com/" target="_blank">MindFolio</a> an innovation and analytics consultancy based in the UK. 
 
 My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. To create these compelling data-driven narratives I use tools such as R Shiny.
 
@@ -90,9 +105,10 @@ Prior to joining MindFolio, I gained a PhD from the University of Zurich, where 
 <div class="hideme">
 <h2>Industry skills</h2>
 <h4>
-behavioural research | green design | health/wellbeing<br>
-concept development | masterplanning<br>
-consumer/market research
+behavioural research | health/wellbeing | green design<br>
+concept development | visioning<br>
+consumer/market research<br>
+end-to-end project management
 </h4>
 </div>
 <br>
@@ -131,7 +147,8 @@ best-worst scaling | various flavours of choice modelling
 <h4>
 html | css | javascript<br>
 Windows server<br>
-Git | GitHub
+Git | GitHub<br>
+Netlify | MongoDB
 </h4>
 </div>
 
