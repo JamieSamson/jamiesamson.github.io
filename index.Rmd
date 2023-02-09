@@ -87,8 +87,13 @@ $(window).scroll(function(){
 <h2>Data-driven story teller</h2>
 </center>
 <br>
-<br>
+<center><img src="images/jsamson.jpg" width="15%"></center>
 
+<div class="top">
+<center><span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span></center>
+</div>
+<br>
+<br>
 <h2>About</h2>
 <h4>I am head of data science and insights at <a href="https://mindfolio.com/" target="_blank">MindFolio</a> an innovation and analytics consultancy based in the UK. 
 
@@ -96,9 +101,6 @@ My role is to take complex consumer and big data, and craft it into stories to h
 
 Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</h4>
 
-<div class="top">
-<center><span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span></center>
-</div>
 
 <br>
 <br>
