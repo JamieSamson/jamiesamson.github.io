@@ -87,7 +87,7 @@ $(window).scroll(function(){
 <h2>Data-driven story teller</h2>
 </center>
 <br>
-<center><img src="images/jsamson.jpg" width="150px"></center>
+<center><img src="images/jsamson2.jpg" width="150px"></center>
 
 <div class="top">
 <center><span style="font-size: 48px;"><i class="fa fa-angle-double-down"></i></span></center>
@@ -95,21 +95,20 @@ $(window).scroll(function(){
 <br>
 <br>
 <h2>About</h2>
-<h4>I am Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">MindFolio</a> a B2B market research agency based in the UK. 
+<h4>I am Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">Vanson Bourne</a> a B2B market research agency based in the UK. 
 
-My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. To create these compelling data-driven narratives I use tools such as R Shiny.
+My role involves managing the end-to-end running of market research projects. Distilling complex topics into compelling data-driven narratives.
 
-Prior to joining MindFolio, I gained a PhD from the University of Zurich, where I focussed on behavioural decision-making.</h4>
-
+Prior to joining Vanson Bourne, I was Head of Data Science for <a href="https://www.mindfolio.com/" target="_blank">MindFolio</a>, a boutique management consultancy. I also have a PhD from the University of Zurich, in behavioural science.</h4>
 
 <br>
 <br>
 <div class="hideme">
 <h2>Industry skills</h2>
 <h4>
-behavioural research | health/wellbeing | green design<br>
+behavioural research <br>
 concept development | visioning<br>
-consumer/market research<br>
+consumer/market research | brand research | research for content<br>
 end-to-end project management
 </h4>
 </div>
@@ -118,13 +117,12 @@ end-to-end project management
 <div class="hideme">
 <h2>Technical skills</h2>
 
-<h3>R</h3>
+<h3>Research techniques</h3>
 <h4>
-shiny | markdown<br>
-ggplot2 | plotly | D3 | igraph | leaflet<br>
-tidyverse<br>
-API's | webscraping
-<h4>
+survey design/programming<br>
+quant & qual<br>
+maxdiff | conjoint
+</h4>
 </div>
 
 <div class="hideme">
@@ -136,12 +134,13 @@ sentiment analysis | NLP | topic modelling
 </div>
 
 <div class="hideme">
-<h3>Research techniques</h3>
+<h3>R</h3>
 <h4>
-behavioural science<br>
-survey design/programming<br>
-best-worst scaling | various flavours of choice modelling
-</h4>
+shiny | markdown<br>
+ggplot2 | plotly | D3 | igraph | leaflet<br>
+tidyverse<br>
+API's | webscraping
+<h4>
 </div>
 
 <div class="hideme">
