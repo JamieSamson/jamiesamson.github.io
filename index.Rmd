@@ -95,7 +95,7 @@ $(window).scroll(function(){
 <br>
 <br>
 <h2>About</h2>
-<h4>I am head of data science and insights at <a href="https://mindfolio.com/" target="_blank">MindFolio</a> an innovation and analytics consultancy based in the UK. 
+<h4>I am Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">MindFolio</a> a B2B market research agency based in the UK. 
 
 My role is to take complex consumer and big data, and craft it into stories to help managers make more informed business decisions. To create these compelling data-driven narratives I use tools such as R Shiny.
 
