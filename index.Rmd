@@ -95,11 +95,11 @@ $(window).scroll(function(){
 <br>
 <br>
 <h2>About</h2>
-<h4>I am Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">Vanson Bourne</a> a B2B market research agency based in the UK. 
+<h4>I am a Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">Vanson Bourne</a>, a B2B market research agency based in the UK. 
 
-My role involves managing the end-to-end running of market research projects. Distilling complex topics into compelling data-driven narratives.
+My role involves managing the end-to-end running of market research projects. Distilling complex topics into compelling data-driven insight narratives.
 
-Prior to joining Vanson Bourne, I was Head of Data Science for <a href="https://www.mindfolio.com/" target="_blank">MindFolio</a>, a boutique management consultancy. I also have a PhD from the University of Zurich, in behavioural science.</h4>
+Prior to joining Vanson Bourne, I was Head of Data Science for <a href="https://www.mindfolio.com/" target="_blank">MindFolio</a>, a boutique management consultancy. I also hold a PhD from the University of Zurich, in behavioural science.</h4>
 
 <br>
 <br>
@@ -109,7 +109,8 @@ Prior to joining Vanson Bourne, I was Head of Data Science for <a href="https://
 behavioural research <br>
 concept development | visioning<br>
 consumer/market research | brand research | research for content<br>
-end-to-end project management
+end-to-end project management<br>
+line management
 </h4>
 </div>
 <br>
@@ -137,7 +138,7 @@ sentiment analysis | NLP | topic modelling
 <h3>R</h3>
 <h4>
 shiny | markdown<br>
-ggplot2 | plotly | D3 | igraph | leaflet<br>
+ggplot2 | plotly | leaflet<br>
 tidyverse<br>
 API's | webscraping
 <h4>
@@ -147,7 +148,6 @@ API's | webscraping
 <h3>Other skills</h3>
 <h4>
 html | css | javascript<br>
-Windows server<br>
 Git | GitHub<br>
 Netlify | MongoDB
 </h4>
