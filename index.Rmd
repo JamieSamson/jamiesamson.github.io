@@ -95,9 +95,9 @@ $(window).scroll(function(){
 <br>
 <br>
 <h2>About</h2>
-<h4>I am a Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">Vanson Bourne</a>, a B2B market research agency based in the UK. 
+<h4>Currently, I am a Senior Research Manager at <a href="https://www.vansonbourne.com/" target="_blank">Vanson Bourne</a>, a B2B market research agency based in the UK. My role involves managing the end-to-end running of market research projects. Distilling complex topics into compelling data-driven insight narratives.
 
-My role involves managing the end-to-end running of market research projects. Distilling complex topics into compelling data-driven insight narratives.
+I bring my data-driven stories to life using engaging or interactive infographics, web apps or dashboard, and create these using tools such as R Shiny and Plotly. 
 
 Prior to joining Vanson Bourne, I was Head of Data Science for <a href="https://www.mindfolio.com/" target="_blank">MindFolio</a>, a boutique management consultancy. I also hold a PhD from the University of Zurich, in behavioural science.</h4>
 
